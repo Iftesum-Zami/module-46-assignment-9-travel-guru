@@ -1,0 +1,27 @@
+.cardImg {
+    width: 180px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(36, 34, 34);
+}
+
+.cardImg:hover{
+    border: 2px solid yellow;
+}
+
+.homeImg{
+    display: flex;
+}
+
+.description{
+    color: white;
+    text-align: left;
+}
+
+.description button {
+    width: 100px;
+}
+
+.container{
+    font-family: arial;
+}

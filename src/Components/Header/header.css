@@ -1,0 +1,35 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 50px;
+    padding: 5px 20px;
+ }
+
+.navbarText p{
+    margin-right: 8px;
+    font-Size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbarText {
+    display: flex; 
+    align-items: center;
+}
+
+.navbarLink {
+    text-decoration: none; 
+    color: white;
+}
+
+.input-style{
+    outline:none;
+    border-radius:5px;
+    padding-left:15px;
+}
+.input-style:focus{
+    border-radius:5px;
+    border:1px solid orange;
+}
